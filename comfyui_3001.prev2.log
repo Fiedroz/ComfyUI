@@ -1,0 +1,153 @@
+## ComfyUI-Manager: installing dependencies done.
+[2024-11-03 20:57:35.343] ** ComfyUI startup time: 2024-11-03 20:57:35.343634
+[2024-11-03 20:57:35.344] ** Platform: Linux
+[2024-11-03 20:57:35.344] ** Python version: 3.11.9 (main, Apr  6 2024, 17:59:24) [GCC 11.4.0]
+[2024-11-03 20:57:35.345] ** Python executable: /workspace/ComfyUI/venv/bin/python3
+[2024-11-03 20:57:35.346] ** ComfyUI Path: /workspace/ComfyUI
+[2024-11-03 20:57:35.346] ** Log path: /workspace/ComfyUI/comfyui.log
+[2024-11-03 20:57:35.379] [START] Security scan
+[2024-11-03 20:57:38.794] [DONE] Security scan
+[2024-11-03 20:57:38.809] ## ComfyUI-Manager: installing dependencies done.
+[2024-11-03 20:57:38.810] ** ComfyUI startup time: 2024-11-03 20:57:38.810425
+[2024-11-03 20:57:38.811] ** Platform: Linux
+[2024-11-03 20:57:38.812] ** Python version: 3.11.9 (main, Apr  6 2024, 17:59:24) [GCC 11.4.0]
+[2024-11-03 20:57:38.813] ** Python executable: /workspace/ComfyUI/venv/bin/python3
+[2024-11-03 20:57:38.814] ** ComfyUI Path: /workspace/ComfyUI
+[2024-11-03 20:57:38.815] ** Log path: /workspace/ComfyUI/comfyui.log
+[2024-11-03 20:57:38.821] 
+Prestartup times for custom nodes:
+[2024-11-03 20:57:38.821]    0.0 seconds: /workspace/ComfyUI/custom_nodes/rgthree-comfy
+[2024-11-03 20:57:38.822]    3.4 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-11-03 20:57:38.823]    3.6 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Manager.f8a54b7e-ffbd-4407-92cf-3c47c836ffc1
+[2024-11-03 20:57:38.825] 
+Total VRAM 45403 MB, total RAM 515598 MB
+[2024-11-03 20:57:41.070] pytorch version: 2.4.0+cu121
+[2024-11-03 20:57:43.018] /usr/local/lib/python3.11/dist-packages/xformers/ops/fmha/flash.py:211: FutureWarning: `torch.library.impl_abstract` was renamed to `torch.library.register_fake`. Please use that instead; we will remove `torch.library.impl_abstract` in a future version of PyTorch.
+  @torch.library.impl_abstract("xformers_flash::flash_fwd")
+[2024-11-03 20:57:43.513] /usr/local/lib/python3.11/dist-packages/xformers/ops/fmha/flash.py:344: FutureWarning: `torch.library.impl_abstract` was renamed to `torch.library.register_fake`. Please use that instead; we will remove `torch.library.impl_abstract` in a future version of PyTorch.
+  @torch.library.impl_abstract("xformers_flash::flash_bwd")
+[2024-11-03 20:57:43.769] xformers version: 0.0.27.post2
+[2024-11-03 20:57:43.770] Set vram state to: NORMAL_VRAM
+[2024-11-03 20:57:43.770] Device: cuda:0 NVIDIA A40 : cudaMallocAsync
+[2024-11-03 20:57:43.995] Using xformers cross attention
+[2024-11-03 20:57:46.491] [Prompt Server] web root: /workspace/ComfyUI/web
+[2024-11-03 20:57:47.578] /workspace/ComfyUI/venv/lib/python3.11/site-packages/kornia/feature/lightglue.py:44: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  @torch.cuda.amp.custom_fwd(cast_inputs=torch.float32)
+[2024-11-03 20:57:48.327] ### Loading: ComfyUI-Impact-Pack (V7.10.7)
+[2024-11-03 20:57:49.462] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.7)
+[2024-11-03 20:57:49.578] [Impact Pack] Wildcards loading done.
+[2024-11-03 20:57:49.808] ### Loading: ComfyUI-Manager (V2.51.9)
+[2024-11-03 20:57:49.933] ### ComfyUI Revision: 2807 [6c9dbde7] | Released on '2024-11-03'
+[2024-11-03 20:57:49.944] Traceback (most recent call last):
+  File "/workspace/ComfyUI/nodes.py", line 2012, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspace/ComfyUI/custom_nodes/ComfyUI-Manager.f8a54b7e-ffbd-4407-92cf-3c47c836ffc1/__init__.py", line 6, in <module>
+    from .glob import manager_server
+ModuleNotFoundError: No module named 'ComfyUI-Manager'
+
+[2024-11-03 20:57:49.945] Cannot import /workspace/ComfyUI/custom_nodes/ComfyUI-Manager.f8a54b7e-ffbd-4407-92cf-3c47c836ffc1 module for custom nodes: No module named 'ComfyUI-Manager'
+[2024-11-03 20:57:49.999] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-11-03 20:57:50.195] [36mEfficiency Nodes:[0m Attempting to add Control Net options to the 'HiRes-Fix Script' Node (comfyui_controlnet_aux add-on)...[92mSuccess![0m
+[2024-11-03 20:57:50.199] [93mEfficiency Nodes Warning:[0m Failed to import python package 'simpleeval'; related nodes disabled.
+[2024-11-03 20:57:50.199] 
+[2024-11-03 20:57:50.315] ------------------------------------------
+[2024-11-03 20:57:50.315] [34mComfyroll Studio v1.76 : [92m 175 Nodes Loaded[0m
+[2024-11-03 20:57:50.316] ------------------------------------------
+[2024-11-03 20:57:50.316] ** For changes, please see patch notes at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/blob/main/Patch_Notes.md
+[2024-11-03 20:57:50.317] ** For help, please see the wiki at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/wiki
+[2024-11-03 20:57:50.317] ------------------------------------------
+[2024-11-03 20:57:50.357] (pysssss:WD14Tagger) [DEBUG] Available ORT providers: AzureExecutionProvider, CPUExecutionProvider
+[2024-11-03 20:57:50.358] (pysssss:WD14Tagger) [DEBUG] Using ORT providers: CUDAExecutionProvider, CPUExecutionProvider
+[2024-11-03 20:57:50.392] 
+[1mFrom Bmad Custom Nodes[0m
+[2024-11-03 20:57:50.392]  [92mLoaded 122 nodes:
+[2024-11-03 20:57:50.393]   + api nodes (14)
+[2024-11-03 20:57:50.393]   + simple utility nodes (58)
+[2024-11-03 20:57:50.393]   + CV nodes (50)
+[2024-11-03 20:57:50.394]  [93mNot loaded:
+[2024-11-03 20:57:50.394]   * color clip ade20k node
+[2024-11-03 20:57:50.394]   * extension dependent nodes
+[2024-11-03 20:57:50.395]  [91mProblems:
+[2024-11-03 20:57:50.395]   ! No module named 'gray2color'
+[2024-11-03 20:57:50.395]   ! No module named 'custom_nodes.ComfyUI_ADV_CLIP_emb'
+[2024-11-03 20:57:50.396] [0m
+[2024-11-03 20:57:51.734] 
+[2024-11-03 20:57:51.734] [92m[rgthree-comfy] Loaded 42 fantastic nodes. 🎉[00m
+[2024-11-03 20:57:51.734] 
+[2024-11-03 20:57:51.747] Total VRAM 45403 MB, total RAM 515598 MB
+[2024-11-03 20:57:51.747] pytorch version: 2.4.0+cu121
+[2024-11-03 20:57:51.748] xformers version: 0.0.27.post2
+[2024-11-03 20:57:51.748] Set vram state to: NORMAL_VRAM
+[2024-11-03 20:57:51.748] Device: cuda:0 NVIDIA A40 : cudaMallocAsync
+[2024-11-03 20:57:52.111] [34mFizzleDorf Custom Nodes: [92mLoaded[0m
+[2024-11-03 20:57:52.854] /usr/local/lib/python3.11/dist-packages/albumentations/__init__.py:13: UserWarning: A new version of Albumentations is available: 1.4.21 (you have 1.4.15). Upgrade using: pip install -U albumentations. To disable automatic update checks, set the environment variable NO_ALBUMENTATIONS_UPDATE to 1.
+  check_for_updates()
+[2024-11-03 20:57:52.857] /usr/local/lib/python3.11/dist-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+[2024-11-03 20:57:55.668] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-11-03 20:57:55.669] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/workspace/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2024-11-03 20:57:57.586] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m218[0m [32mnodes successfully.[0m
+[2024-11-03 20:57:57.587] 
+	[3m[93m"Art is not about making something perfect, it's about making something meaningful."[0m[3m - Unknown[0m
+[2024-11-03 20:57:57.587] 
+[2024-11-03 20:57:58.270] [36;20m[comfy_mtb] | INFO -> loaded [96m83[0m nodes successfuly[0m
+[2024-11-03 20:57:58.273] [36;20m[comfy_mtb] | INFO -> Some nodes (5) could not be loaded. This can be ignored, but go to http://None:3001/mtb if you want more information.[0m
+[2024-11-03 20:57:58.346] [92m[tinyterraNodes] [32mLoaded[0m
+[2024-11-03 20:57:58.594] ### Loading: ComfyUI-Manager (V2.51.9)
+[2024-11-03 20:57:58.726] [ComfyUI-Manager] Some features are restricted due to your ComfyUI being outdated.
+[2024-11-03 20:57:58.727] ### ComfyUI Revision: 2807 [6c9dbde7] | Released on '2024-11-03'
+[2024-11-03 20:57:58.736] 
+Import times for custom nodes:
+[2024-11-03 20:57:58.737]    0.0 seconds: /workspace/ComfyUI/custom_nodes/websocket_image_save.py
+[2024-11-03 20:57:58.737]    0.0 seconds: /workspace/ComfyUI/custom_nodes/style_aligned_comfy
+[2024-11-03 20:57:58.737]    0.0 seconds: /workspace/ComfyUI/custom_nodes/comfyui-portrait-master-zh-cn
+[2024-11-03 20:57:58.737]    0.0 seconds: /workspace/ComfyUI/custom_nodes/tiled_ksampler
+[2024-11-03 20:57:58.737]    0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-seamless-tiling
+[2024-11-03 20:57:58.738]    0.0 seconds: /workspace/ComfyUI/custom_nodes/sdxl_prompt_styler
+[2024-11-03 20:57:58.738]    0.0 seconds: /workspace/ComfyUI/custom_nodes/SDXLAspectRatio.py
+[2024-11-03 20:57:58.739]    0.0 seconds: /workspace/ComfyUI/custom_nodes/masquerade-nodes-comfyui
+[2024-11-03 20:57:58.739]    0.0 seconds: /workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux
+[2024-11-03 20:57:58.740]    0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-WD14-Tagger
+[2024-11-03 20:57:58.740]    0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus
+[2024-11-03 20:57:58.741]    0.0 seconds: /workspace/ComfyUI/custom_nodes/comfyui-inpaint-nodes
+[2024-11-03 20:57:58.741]    0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyMath
+[2024-11-03 20:57:58.742]    0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_UltimateSDUpscale
+[2024-11-03 20:57:58.742]    0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
+[2024-11-03 20:57:58.742]    0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-KJNodes
+[2024-11-03 20:57:58.742]    0.1 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_essentials
+[2024-11-03 20:57:58.742]    0.1 seconds: /workspace/ComfyUI/custom_nodes/comfyui_bmad_nodes
+[2024-11-03 20:57:58.742]    0.1 seconds: /workspace/ComfyUI/custom_nodes/rgthree-comfy
+[2024-11-03 20:57:58.743]    0.1 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_Comfyroll_CustomNodes
+[2024-11-03 20:57:58.743]    0.1 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-11-03 20:57:58.743]    0.2 seconds (IMPORT FAILED): /workspace/ComfyUI/custom_nodes/ComfyUI-Manager.f8a54b7e-ffbd-4407-92cf-3c47c836ffc1
+[2024-11-03 20:57:58.743]    0.2 seconds: /workspace/ComfyUI/custom_nodes/comfy-image-saver
+[2024-11-03 20:57:58.743]    0.3 seconds: /workspace/ComfyUI/custom_nodes/efficiency-nodes-comfyui
+[2024-11-03 20:57:58.743]    0.3 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_tinyterraNodes
+[2024-11-03 20:57:58.744]    0.3 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-layerdiffuse
+[2024-11-03 20:57:58.744]    0.3 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_FizzNodes
+[2024-11-03 20:57:58.744]    0.6 seconds: /workspace/ComfyUI/custom_nodes/comfy_mtb
+[2024-11-03 20:57:58.744]    0.7 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Inspyrenet-Rembg
+[2024-11-03 20:57:58.744]    1.2 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-SUPIR
+[2024-11-03 20:57:58.744]    1.3 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
+[2024-11-03 20:57:58.744]    4.5 seconds: /workspace/ComfyUI/custom_nodes/was-node-suite-comfyui
+[2024-11-03 20:57:58.745] 
+[2024-11-03 20:57:58.769] Starting server
+
+[2024-11-03 20:57:58.770] To see the GUI go to: http://0.0.0.0:3001
+[2024-11-03 20:57:58.772] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-11-03 20:57:58.784] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2024-11-03 20:57:58.816] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-11-03 20:57:58.831] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-11-03 20:57:58.972] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-11-03 20:58:19.596] FETCH DATA from: /workspace/ComfyUI/custom_nodes/ComfyUI-Manager.f8a54b7e-ffbd-4407-92cf-3c47c836ffc1/.cache/1742899825_extension-node-map.json [DONE]
+[2024-11-03 20:58:19.878] FETCH DATA from: /workspace/ComfyUI/custom_nodes/ComfyUI-Manager.f8a54b7e-ffbd-4407-92cf-3c47c836ffc1/.cache/1514988643_custom-node-list.json [DONE]
+[2024-11-03 20:58:19.906] FETCH DATA from: /workspace/ComfyUI/custom_nodes/ComfyUI-Manager.f8a54b7e-ffbd-4407-92cf-3c47c836ffc1/.cache/746607195_github-stats.json [DONE]
+[2024-11-03 20:58:28.408] FETCH DATA from: /workspace/ComfyUI/custom_nodes/ComfyUI-Manager.f8a54b7e-ffbd-4407-92cf-3c47c836ffc1/.cache/1742899825_extension-node-map.json [DONE]
+[2024-11-03 20:58:28.681] FETCH DATA from: /workspace/ComfyUI/custom_nodes/ComfyUI-Manager.f8a54b7e-ffbd-4407-92cf-3c47c836ffc1/.cache/1514988643_custom-node-list.json [DONE]
+[2024-11-03 20:58:28.695] FETCH DATA from: /workspace/ComfyUI/custom_nodes/ComfyUI-Manager.f8a54b7e-ffbd-4407-92cf-3c47c836ffc1/.cache/746607195_github-stats.json [DONE]
+[2024-11-03 21:01:40.921] 
+Restarting... [Legacy Mode]
+
+[2024-11-03 21:01:40.921] 

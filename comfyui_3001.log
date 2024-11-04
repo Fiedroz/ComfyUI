@@ -1,0 +1,400 @@
+## ComfyUI-Manager: installing dependencies done.
+[2024-11-03 21:01:45.002] ** ComfyUI startup time: 2024-11-03 21:01:45.002790
+[2024-11-03 21:01:45.003] ** Platform: Linux
+[2024-11-03 21:01:45.003] ** Python version: 3.11.9 (main, Apr  6 2024, 17:59:24) [GCC 11.4.0]
+[2024-11-03 21:01:45.004] ** Python executable: /workspace/ComfyUI/venv/bin/python3
+[2024-11-03 21:01:45.004] ** ComfyUI Path: /workspace/ComfyUI
+[2024-11-03 21:01:45.005] ** Log path: /workspace/ComfyUI/comfyui.log
+[2024-11-03 21:01:45.019] 
+Prestartup times for custom nodes:
+[2024-11-03 21:01:45.020]    0.0 seconds: /workspace/ComfyUI/custom_nodes/rgthree-comfy
+[2024-11-03 21:01:45.020]    3.8 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-11-03 21:01:45.021] 
+Total VRAM 45403 MB, total RAM 515598 MB
+[2024-11-03 21:01:46.954] pytorch version: 2.4.0+cu121
+[2024-11-03 21:01:48.683] /usr/local/lib/python3.11/dist-packages/xformers/ops/fmha/flash.py:211: FutureWarning: `torch.library.impl_abstract` was renamed to `torch.library.register_fake`. Please use that instead; we will remove `torch.library.impl_abstract` in a future version of PyTorch.
+  @torch.library.impl_abstract("xformers_flash::flash_fwd")
+[2024-11-03 21:01:49.275] /usr/local/lib/python3.11/dist-packages/xformers/ops/fmha/flash.py:344: FutureWarning: `torch.library.impl_abstract` was renamed to `torch.library.register_fake`. Please use that instead; we will remove `torch.library.impl_abstract` in a future version of PyTorch.
+  @torch.library.impl_abstract("xformers_flash::flash_bwd")
+[2024-11-03 21:01:49.545] xformers version: 0.0.27.post2
+[2024-11-03 21:01:49.545] Set vram state to: NORMAL_VRAM
+[2024-11-03 21:01:49.546] Device: cuda:0 NVIDIA A40 : cudaMallocAsync
+[2024-11-03 21:01:49.763] Using xformers cross attention
+[2024-11-03 21:01:52.436] [Prompt Server] web root: /workspace/ComfyUI/web
+[2024-11-03 21:01:53.583] /workspace/ComfyUI/venv/lib/python3.11/site-packages/kornia/feature/lightglue.py:44: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  @torch.cuda.amp.custom_fwd(cast_inputs=torch.float32)
+[2024-11-03 21:01:54.481] ### Loading: ComfyUI-Impact-Pack (V7.10.7)
+[2024-11-03 21:01:55.629] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.7)
+[2024-11-03 21:01:55.735] [Impact Pack] Wildcards loading done.
+[2024-11-03 21:01:56.113] [36mEfficiency Nodes:[0m Attempting to add Control Net options to the 'HiRes-Fix Script' Node (comfyui_controlnet_aux add-on)...[92mSuccess![0m
+[2024-11-03 21:01:56.117] [93mEfficiency Nodes Warning:[0m Failed to import python package 'simpleeval'; related nodes disabled.
+[2024-11-03 21:01:56.117] 
+[2024-11-03 21:01:56.215] ------------------------------------------
+[2024-11-03 21:01:56.215] [34mComfyroll Studio v1.76 : [92m 175 Nodes Loaded[0m
+[2024-11-03 21:01:56.216] ------------------------------------------
+[2024-11-03 21:01:56.216] ** For changes, please see patch notes at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/blob/main/Patch_Notes.md
+[2024-11-03 21:01:56.216] ** For help, please see the wiki at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/wiki
+[2024-11-03 21:01:56.216] ------------------------------------------
+[2024-11-03 21:01:56.266] (pysssss:WD14Tagger) [DEBUG] Available ORT providers: AzureExecutionProvider, CPUExecutionProvider
+[2024-11-03 21:01:56.267] (pysssss:WD14Tagger) [DEBUG] Using ORT providers: CUDAExecutionProvider, CPUExecutionProvider
+[2024-11-03 21:01:56.297] 
+[1mFrom Bmad Custom Nodes[0m
+[2024-11-03 21:01:56.298]  [92mLoaded 122 nodes:
+[2024-11-03 21:01:56.298]   + api nodes (14)
+[2024-11-03 21:01:56.298]   + simple utility nodes (58)
+[2024-11-03 21:01:56.298]   + CV nodes (50)
+[2024-11-03 21:01:56.298]  [93mNot loaded:
+[2024-11-03 21:01:56.299]   * color clip ade20k node
+[2024-11-03 21:01:56.299]   * extension dependent nodes
+[2024-11-03 21:01:56.299]  [91mProblems:
+[2024-11-03 21:01:56.299]   ! No module named 'gray2color'
+[2024-11-03 21:01:56.299]   ! No module named 'custom_nodes.ComfyUI_ADV_CLIP_emb'
+[2024-11-03 21:01:56.300] [0m
+[2024-11-03 21:01:57.754] 
+[2024-11-03 21:01:57.754] [92m[rgthree-comfy] Loaded 42 exciting nodes. 🎉[00m
+[2024-11-03 21:01:57.754] 
+[2024-11-03 21:01:57.774] Total VRAM 45403 MB, total RAM 515598 MB
+[2024-11-03 21:01:57.774] pytorch version: 2.4.0+cu121
+[2024-11-03 21:01:57.774] xformers version: 0.0.27.post2
+[2024-11-03 21:01:57.774] Set vram state to: NORMAL_VRAM
+[2024-11-03 21:01:57.775] Device: cuda:0 NVIDIA A40 : cudaMallocAsync
+[2024-11-03 21:01:58.236] [34mFizzleDorf Custom Nodes: [92mLoaded[0m
+[2024-11-03 21:01:58.955] /usr/local/lib/python3.11/dist-packages/albumentations/__init__.py:13: UserWarning: A new version of Albumentations is available: 1.4.21 (you have 1.4.15). Upgrade using: pip install -U albumentations. To disable automatic update checks, set the environment variable NO_ALBUMENTATIONS_UPDATE to 1.
+  check_for_updates()
+[2024-11-03 21:01:58.958] /usr/local/lib/python3.11/dist-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+[2024-11-03 21:02:02.124] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-11-03 21:02:02.126] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/workspace/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2024-11-03 21:02:05.145] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m218[0m [32mnodes successfully.[0m
+[2024-11-03 21:02:05.146] 
+	[3m[93m"Art is the breath of life."[0m[3m - Liza Donnelly[0m
+[2024-11-03 21:02:05.146] 
+[2024-11-03 21:02:05.835] [36;20m[comfy_mtb] | INFO -> loaded [96m83[0m nodes successfuly[0m
+[2024-11-03 21:02:05.838] [36;20m[comfy_mtb] | INFO -> Some nodes (5) could not be loaded. This can be ignored, but go to http://None:3001/mtb if you want more information.[0m
+[2024-11-03 21:02:05.914] [92m[tinyterraNodes] [32mLoaded[0m
+[2024-11-03 21:02:06.184] ### Loading: ComfyUI-Manager (V2.51.9)
+[2024-11-03 21:02:06.326] ### ComfyUI Revision: 2807 [6c9dbde7] | Released on '2024-11-03'
+[2024-11-03 21:02:06.335] 
+Import times for custom nodes:
+[2024-11-03 21:02:06.336]    0.0 seconds: /workspace/ComfyUI/custom_nodes/websocket_image_save.py
+[2024-11-03 21:02:06.336]    0.0 seconds: /workspace/ComfyUI/custom_nodes/comfyui-portrait-master-zh-cn
+[2024-11-03 21:02:06.336]    0.0 seconds: /workspace/ComfyUI/custom_nodes/SDXLAspectRatio.py
+[2024-11-03 21:02:06.336]    0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-seamless-tiling
+[2024-11-03 21:02:06.337]    0.0 seconds: /workspace/ComfyUI/custom_nodes/tiled_ksampler
+[2024-11-03 21:02:06.337]    0.0 seconds: /workspace/ComfyUI/custom_nodes/sdxl_prompt_styler
+[2024-11-03 21:02:06.337]    0.0 seconds: /workspace/ComfyUI/custom_nodes/style_aligned_comfy
+[2024-11-03 21:02:06.337]    0.0 seconds: /workspace/ComfyUI/custom_nodes/masquerade-nodes-comfyui
+[2024-11-03 21:02:06.338]    0.0 seconds: /workspace/ComfyUI/custom_nodes/comfyui_controlnet_aux
+[2024-11-03 21:02:06.338]    0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-WD14-Tagger
+[2024-11-03 21:02:06.338]    0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus
+[2024-11-03 21:02:06.339]    0.0 seconds: /workspace/ComfyUI/custom_nodes/comfyui-inpaint-nodes
+[2024-11-03 21:02:06.339]    0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyMath
+[2024-11-03 21:02:06.339]    0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
+[2024-11-03 21:02:06.340]    0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_UltimateSDUpscale
+[2024-11-03 21:02:06.340]    0.0 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_essentials
+[2024-11-03 21:02:06.340]    0.1 seconds: /workspace/ComfyUI/custom_nodes/comfyui_bmad_nodes
+[2024-11-03 21:02:06.340]    0.1 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-KJNodes
+[2024-11-03 21:02:06.340]    0.1 seconds: /workspace/ComfyUI/custom_nodes/rgthree-comfy
+[2024-11-03 21:02:06.341]    0.1 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_Comfyroll_CustomNodes
+[2024-11-03 21:02:06.341]    0.1 seconds: /workspace/ComfyUI/custom_nodes/comfy-image-saver
+[2024-11-03 21:02:06.341]    0.2 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-11-03 21:02:06.341]    0.2 seconds: /workspace/ComfyUI/custom_nodes/efficiency-nodes-comfyui
+[2024-11-03 21:02:06.341]    0.3 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_tinyterraNodes
+[2024-11-03 21:02:06.342]    0.3 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-layerdiffuse
+[2024-11-03 21:02:06.342]    0.4 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI_FizzNodes
+[2024-11-03 21:02:06.342]    0.6 seconds: /workspace/ComfyUI/custom_nodes/comfy_mtb
+[2024-11-03 21:02:06.342]    0.7 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Inspyrenet-Rembg
+[2024-11-03 21:02:06.342]    1.3 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
+[2024-11-03 21:02:06.342]    1.3 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-SUPIR
+[2024-11-03 21:02:06.342]    5.9 seconds: /workspace/ComfyUI/custom_nodes/was-node-suite-comfyui
+[2024-11-03 21:02:06.342] 
+[2024-11-03 21:02:06.363] Starting server
+
+[2024-11-03 21:02:06.364] To see the GUI go to: http://0.0.0.0:3001
+[2024-11-03 21:02:06.398] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-11-03 21:02:06.414] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-11-03 21:02:06.428] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2024-11-03 21:02:06.460] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-11-03 21:02:06.477] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-11-03 21:05:56.313] got prompt
+[2024-11-03 21:05:56.328] Failed to validate prompt for output 145:
+[2024-11-03 21:05:56.328] * LoraLoaderModelOnly 155:
+[2024-11-03 21:05:56.328]   - Value not in list: lora_name: 'flux/Porsche 911.safetensors' not in ['flux/Maserati_Granturismo-000006.safetensors', 'flux/Motocross_Speedway_bike-000011.safetensors', 'flux/Porsche_Taycan_Limousine.safetensors', 'flux/huntRoyale-000009.safetensors']
+[2024-11-03 21:05:56.328] * UpscaleModelLoader 139:
+[2024-11-03 21:05:56.328]   - Value not in list: model_name: '4x_NMKD-Superscale-SP_178000_G.pth' not in ['4x_NMKD-Siax_200k.pth', '8x_NMKD-Superscale_150000_G.pth', 'ldsr/last.ckpt']
+[2024-11-03 21:05:56.328] Output will be ignored
+[2024-11-03 21:05:56.329] invalid prompt: {'type': 'prompt_outputs_failed_validation', 'message': 'Prompt outputs failed validation', 'details': '', 'extra_info': {}}
+[2024-11-03 21:07:54.045] got prompt
+[2024-11-03 21:07:54.062] Failed to validate prompt for output 145:
+[2024-11-03 21:07:54.062] * UpscaleModelLoader 139:
+[2024-11-03 21:07:54.063]   - Value not in list: model_name: '4x_NMKD-Superscale-SP_178000_G.pth' not in ['4x_NMKD-Siax_200k.pth', '8x_NMKD-Superscale_150000_G.pth', 'ldsr/last.ckpt']
+[2024-11-03 21:07:54.063] Output will be ignored
+[2024-11-03 21:07:54.063] invalid prompt: {'type': 'prompt_outputs_failed_validation', 'message': 'Prompt outputs failed validation', 'details': '', 'extra_info': {}}
+[2024-11-03 21:11:54.731] got prompt
+[2024-11-03 21:11:55.041] Using xformers attention in VAE
+[2024-11-03 21:11:55.045] Using xformers attention in VAE
+[2024-11-03 21:11:57.710] /workspace/ComfyUI/venv/lib/python3.11/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+[2024-11-03 21:12:19.993] clip missing: ['text_projection.weight']
+[2024-11-03 21:12:20.244] Requested to load FluxClipModel_
+[2024-11-03 21:12:20.245] Loading 1 new model
+[2024-11-03 21:12:21.734] loaded completely 0.0 9319.23095703125 True
+[2024-11-03 21:12:23.464] model weight dtype torch.float8_e4m3fn, manual cast: torch.bfloat16
+[2024-11-03 21:12:23.465] model_type FLUX
+[2024-11-03 21:13:16.071] Requested to load Flux
+[2024-11-03 21:13:16.071] Loading 1 new model
+[2024-11-03 21:13:23.156] loaded completely 0.0 11350.048889160156 True
+[2024-11-03 21:13:39.687] 100%|██████████| 20/20 [00:16<00:00,  1.19it/s]100%|██████████| 20/20 [00:16<00:00,  1.21it/s]
+[2024-11-03 21:13:39.995] Requested to load AutoencodingEngine
+[2024-11-03 21:13:39.995] Loading 1 new model
+[2024-11-03 21:13:40.054] loaded completely 0.0 159.87335777282715 True
+[2024-11-03 21:14:31.582] 100%|██████████| 10/10 [00:36<00:00,  3.83s/it]100%|██████████| 10/10 [00:36<00:00,  3.68s/it]
+[2024-11-03 21:14:34.679] Prompt executed in 159.94 seconds
+[2024-11-03 21:15:39.830] got prompt
+[2024-11-03 21:15:40.551] got prompt
+[2024-11-03 21:15:44.707] got prompt
+[2024-11-03 21:15:56.333] 100%|██████████| 20/20 [00:16<00:00,  1.19it/s]100%|██████████| 20/20 [00:16<00:00,  1.21it/s]
+[2024-11-03 21:16:43.239] 100%|██████████| 10/10 [00:36<00:00,  3.83s/it]100%|██████████| 10/10 [00:36<00:00,  3.69s/it]
+[2024-11-03 21:16:46.398] Prompt executed in 66.55 seconds
+[2024-11-03 21:17:03.649] 100%|██████████| 20/20 [00:16<00:00,  1.17it/s]100%|██████████| 20/20 [00:16<00:00,  1.20it/s]
+[2024-11-03 21:17:50.910] 100%|██████████| 10/10 [00:37<00:00,  3.85s/it]100%|██████████| 10/10 [00:37<00:00,  3.72s/it]
+[2024-11-03 21:17:54.012] Prompt executed in 67.08 seconds
+[2024-11-03 21:18:11.306] 100%|██████████| 20/20 [00:16<00:00,  1.17it/s]100%|██████████| 20/20 [00:16<00:00,  1.19it/s]
+[2024-11-03 21:18:58.901] 100%|██████████| 10/10 [00:37<00:00,  3.86s/it]100%|██████████| 10/10 [00:37<00:00,  3.72s/it]
+[2024-11-03 21:19:02.009] Prompt executed in 67.48 seconds
+[2024-11-03 21:31:19.029] got prompt
+[2024-11-03 21:31:56.702] 100%|██████████| 20/20 [00:37<00:00,  1.92s/it]100%|██████████| 20/20 [00:37<00:00,  1.88s/it]
+[2024-11-03 21:34:20.970] 100%|██████████| 10/10 [01:58<00:00, 12.27s/it]100%|██████████| 10/10 [01:58<00:00, 11.81s/it]
+[2024-11-03 21:34:33.900] Prompt executed in 194.83 seconds
+[2024-11-03 21:34:45.762] got prompt
+[2024-11-03 21:34:45.892] Requested to load FluxClipModel_
+[2024-11-03 21:34:45.893] Loading 1 new model
+[2024-11-03 21:34:46.981] loaded completely 0.0 9319.23095703125 True
+[2024-11-03 21:34:48.218] loaded completely 33299.308097457884 11350.048889160156 True
+[2024-11-03 21:35:26.422] 100%|██████████| 20/20 [00:38<00:00,  1.95s/it]100%|██████████| 20/20 [00:38<00:00,  1.91s/it]
+[2024-11-03 21:35:56.199] got prompt
+[2024-11-03 21:37:49.167] 100%|██████████| 10/10 [01:58<00:00, 12.28s/it]100%|██████████| 10/10 [01:58<00:00, 11.84s/it]
+[2024-11-03 21:37:59.466] Prompt executed in 193.65 seconds
+[2024-11-03 21:38:01.282] loaded completely 43613.73906211853 11350.048889160156 True
+[2024-11-03 21:38:18.133] 100%|██████████| 20/20 [00:16<00:00,  1.16it/s]100%|██████████| 20/20 [00:16<00:00,  1.19it/s]
+[2024-11-03 21:39:05.753] 100%|██████████| 10/10 [00:37<00:00,  3.88s/it]100%|██████████| 10/10 [00:37<00:00,  3.74s/it]
+[2024-11-03 21:39:08.877] Prompt executed in 68.37 seconds
+[2024-11-03 21:41:47.899] got prompt
+[2024-11-03 21:41:47.967] Requested to load FluxClipModel_
+[2024-11-03 21:41:47.968] Loading 1 new model
+[2024-11-03 21:41:48.985] loaded completely 0.0 9319.23095703125 True
+[2024-11-03 21:41:51.342] got prompt
+[2024-11-03 21:41:51.649] got prompt
+[2024-11-03 21:42:27.033] 100%|██████████| 20/20 [00:37<00:00,  1.93s/it]100%|██████████| 20/20 [00:37<00:00,  1.89s/it]
+[2024-11-03 21:44:50.008] 100%|██████████| 10/10 [01:58<00:00, 12.26s/it]100%|██████████| 10/10 [01:58<00:00, 11.80s/it]
+[2024-11-03 21:45:00.158] Prompt executed in 192.21 seconds
+[2024-11-03 21:45:02.012] loaded completely 42618.53906211853 11350.048889160156 True
+[2024-11-03 21:45:40.460] 100%|██████████| 20/20 [00:38<00:00,  1.96s/it]100%|██████████| 20/20 [00:38<00:00,  1.92s/it]
+[2024-11-03 21:46:11.045] got prompt
+[2024-11-03 21:46:11.310] got prompt
+[2024-11-03 21:48:03.481] 100%|██████████| 10/10 [01:58<00:00, 12.28s/it]100%|██████████| 10/10 [01:58<00:00, 11.84s/it]
+[2024-11-03 21:48:12.949] Prompt executed in 191.93 seconds
+[2024-11-03 21:48:13.838] Requested to load FluxClipModel_
+[2024-11-03 21:48:13.838] Loading 1 new model
+[2024-11-03 21:48:14.802] loaded completely 0.0 9319.23095703125 True
+[2024-11-03 21:48:15.982] loaded completely 33299.308097457884 11350.048889160156 True
+[2024-11-03 21:48:54.361] 100%|██████████| 20/20 [00:38<00:00,  1.96s/it]100%|██████████| 20/20 [00:38<00:00,  1.92s/it]
+[2024-11-03 21:51:17.177] 100%|██████████| 10/10 [01:58<00:00, 12.27s/it]100%|██████████| 10/10 [01:58<00:00, 11.83s/it]
+[2024-11-03 21:51:27.262] Prompt executed in 193.44 seconds
+[2024-11-03 21:51:29.232] loaded completely 42618.53906211853 11350.048889160156 True
+[2024-11-03 21:52:07.637] 100%|██████████| 20/20 [00:38<00:00,  1.96s/it]100%|██████████| 20/20 [00:38<00:00,  1.92s/it]
+[2024-11-03 21:54:30.010] 100%|██████████| 10/10 [01:58<00:00, 12.28s/it]100%|██████████| 10/10 [01:58<00:00, 11.85s/it]
+[2024-11-03 21:54:39.449] Prompt executed in 190.98 seconds
+[2024-11-03 21:55:28.615] got prompt
+[2024-11-03 21:55:29.777] loaded completely 43613.73906211853 11350.048889160156 True
+[2024-11-03 21:55:46.516] 100%|██████████| 20/20 [00:16<00:00,  1.18it/s]100%|██████████| 20/20 [00:16<00:00,  1.20it/s]
+[2024-11-03 21:56:33.867] 100%|██████████| 10/10 [00:37<00:00,  3.87s/it]100%|██████████| 10/10 [00:37<00:00,  3.72s/it]
+[2024-11-03 21:56:37.069] Prompt executed in 68.41 seconds
+[2024-11-03 21:58:08.525] got prompt
+[2024-11-03 21:58:25.126] 100%|██████████| 20/20 [00:16<00:00,  1.18it/s]100%|██████████| 20/20 [00:16<00:00,  1.21it/s]
+[2024-11-03 21:59:12.233] 100%|██████████| 10/10 [00:37<00:00,  3.85s/it]100%|██████████| 10/10 [00:37<00:00,  3.70s/it]
+[2024-11-03 21:59:15.297] Prompt executed in 66.74 seconds
+[2024-11-03 21:59:58.598] got prompt
+[2024-11-03 22:00:15.374] 100%|██████████| 20/20 [00:16<00:00,  1.17it/s]100%|██████████| 20/20 [00:16<00:00,  1.20it/s]
+[2024-11-03 22:01:02.781] 100%|██████████| 10/10 [00:37<00:00,  3.86s/it]100%|██████████| 10/10 [00:37<00:00,  3.71s/it]
+[2024-11-03 22:01:05.856] Prompt executed in 67.22 seconds
+[2024-11-03 22:02:44.953] got prompt
+[2024-11-03 22:02:45.005] Requested to load FluxClipModel_
+[2024-11-03 22:02:45.006] Loading 1 new model
+[2024-11-03 22:02:46.422] loaded completely 0.0 9319.23095703125 True
+[2024-11-03 22:03:03.216] 100%|██████████| 20/20 [00:16<00:00,  1.19it/s]100%|██████████| 20/20 [00:16<00:00,  1.21it/s]
+[2024-11-03 22:03:50.363] 100%|██████████| 10/10 [00:37<00:00,  3.85s/it]100%|██████████| 10/10 [00:37<00:00,  3.70s/it]
+[2024-11-03 22:03:53.431] Prompt executed in 68.45 seconds
+[2024-11-03 22:04:24.449] got prompt
+[2024-11-03 22:04:41.293] 100%|██████████| 20/20 [00:16<00:00,  1.18it/s]100%|██████████| 20/20 [00:16<00:00,  1.20it/s]
+[2024-11-03 22:05:28.781] 100%|██████████| 10/10 [00:37<00:00,  3.86s/it]100%|██████████| 10/10 [00:37<00:00,  3.71s/it]
+[2024-11-03 22:05:31.872] Prompt executed in 67.40 seconds
+[2024-11-03 22:06:44.288] got prompt
+[2024-11-03 22:07:22.103] 100%|██████████| 20/20 [00:37<00:00,  1.93s/it]100%|██████████| 20/20 [00:37<00:00,  1.89s/it]
+[2024-11-03 22:09:44.691] 100%|██████████| 10/10 [01:58<00:00, 12.26s/it]100%|██████████| 10/10 [01:58<00:00, 11.81s/it]
+[2024-11-03 22:09:54.992] Prompt executed in 190.67 seconds
+[2024-11-03 22:20:37.840] got prompt
+[2024-11-03 22:20:37.899] Requested to load FluxClipModel_
+[2024-11-03 22:20:37.900] Loading 1 new model
+[2024-11-03 22:20:39.271] loaded completely 0.0 9319.23095703125 True
+[2024-11-03 22:20:40.286] loaded completely 33299.308097457884 11350.048889160156 True
+[2024-11-03 22:21:17.926] 100%|██████████| 20/20 [00:37<00:00,  1.92s/it]100%|██████████| 20/20 [00:37<00:00,  1.88s/it]
+[2024-11-03 22:23:40.342] 100%|██████████| 10/10 [01:57<00:00, 12.25s/it]100%|██████████| 10/10 [01:57<00:00, 11.79s/it]
+[2024-11-03 22:23:50.614] Prompt executed in 192.73 seconds
+[2024-11-03 22:26:29.931] got prompt
+[2024-11-03 22:26:30.319] got prompt
+[2024-11-03 22:26:31.146] loaded completely 42618.53906211853 11350.048889160156 True
+[2024-11-03 22:26:31.643] got prompt
+[2024-11-03 22:27:08.892] 100%|██████████| 20/20 [00:37<00:00,  1.93s/it]100%|██████████| 20/20 [00:37<00:00,  1.89s/it]
+[2024-11-03 22:29:30.473] 100%|██████████| 10/10 [01:58<00:00, 12.25s/it]100%|██████████| 10/10 [01:58<00:00, 11.80s/it]
+[2024-11-03 22:29:40.054] Prompt executed in 190.09 seconds
+[2024-11-03 22:29:41.759] loaded completely 42618.53906211853 11350.048889160156 True
+[2024-11-03 22:30:20.159] 100%|██████████| 20/20 [00:38<00:00,  1.96s/it]100%|██████████| 20/20 [00:38<00:00,  1.92s/it]
+[2024-11-03 22:32:13.409] got prompt
+[2024-11-03 22:32:13.742] got prompt
+[2024-11-03 22:32:36.780] got prompt
+[2024-11-03 22:32:37.304] got prompt
+[2024-11-03 22:32:43.251] 100%|██████████| 10/10 [01:58<00:00, 12.28s/it]100%|██████████| 10/10 [01:58<00:00, 11.84s/it]
+[2024-11-03 22:32:52.865] Prompt executed in 191.88 seconds
+[2024-11-03 22:32:55.021] loaded completely 42618.53906211853 11350.048889160156 True
+[2024-11-03 22:33:00.349] got prompt
+[2024-11-03 22:33:00.900] got prompt
+[2024-11-03 22:33:18.692] got prompt
+[2024-11-03 22:33:19.084] got prompt
+[2024-11-03 22:33:19.673] got prompt
+[2024-11-03 22:33:33.421] 100%|██████████| 20/20 [00:38<00:00,  1.96s/it]100%|██████████| 20/20 [00:38<00:00,  1.92s/it]
+[2024-11-03 22:35:55.595] 100%|██████████| 10/10 [01:58<00:00, 12.28s/it]100%|██████████| 10/10 [01:58<00:00, 11.84s/it]
+[2024-11-03 22:36:05.165] Prompt executed in 190.99 seconds
+[2024-11-03 22:36:06.036] Requested to load FluxClipModel_
+[2024-11-03 22:36:06.036] Loading 1 new model
+[2024-11-03 22:36:07.166] loaded completely 0.0 9319.23095703125 True
+[2024-11-03 22:36:08.129] loaded completely 33299.308097457884 11350.048889160156 True
+[2024-11-03 22:36:46.481] 100%|██████████| 20/20 [00:38<00:00,  1.95s/it]100%|██████████| 20/20 [00:38<00:00,  1.92s/it]
+[2024-11-03 22:39:09.215] 100%|██████████| 10/10 [01:58<00:00, 12.26s/it]100%|██████████| 10/10 [01:58<00:00, 11.83s/it]
+[2024-11-03 22:39:19.514] Prompt executed in 193.49 seconds
+[2024-11-03 22:39:21.159] loaded completely 42618.53906211853 11350.048889160156 True
+[2024-11-03 22:39:59.582] 100%|██████████| 20/20 [00:38<00:00,  1.96s/it]100%|██████████| 20/20 [00:38<00:00,  1.92s/it]
+[2024-11-03 22:42:22.125] 100%|██████████| 10/10 [01:58<00:00, 12.28s/it]100%|██████████| 10/10 [01:58<00:00, 11.84s/it]
+[2024-11-03 22:42:31.769] Prompt executed in 191.40 seconds
+[2024-11-03 22:42:32.657] Requested to load FluxClipModel_
+[2024-11-03 22:42:32.658] Loading 1 new model
+[2024-11-03 22:42:33.635] loaded completely 0.0 9319.23095703125 True
+[2024-11-03 22:42:34.875] loaded completely 33299.308097457884 11350.048889160156 True
+[2024-11-03 22:43:13.235] 100%|██████████| 20/20 [00:38<00:00,  1.96s/it]100%|██████████| 20/20 [00:38<00:00,  1.92s/it]
+[2024-11-03 22:45:36.398] 100%|██████████| 10/10 [01:58<00:00, 12.28s/it]100%|██████████| 10/10 [01:58<00:00, 11.85s/it]
+[2024-11-03 22:45:46.866] Prompt executed in 194.22 seconds
+[2024-11-03 22:45:48.531] loaded completely 42618.53906211853 11350.048889160156 True
+[2024-11-03 22:46:26.962] 100%|██████████| 20/20 [00:38<00:00,  1.96s/it]100%|██████████| 20/20 [00:38<00:00,  1.92s/it]
+[2024-11-03 22:48:49.109] 100%|██████████| 10/10 [01:58<00:00, 12.28s/it]100%|██████████| 10/10 [01:58<00:00, 11.85s/it]
+[2024-11-03 22:48:58.777] Prompt executed in 191.05 seconds
+[2024-11-03 22:48:59.823] Requested to load FluxClipModel_
+[2024-11-03 22:48:59.823] Loading 1 new model
+[2024-11-03 22:49:00.846] loaded completely 0.0 9319.23095703125 True
+[2024-11-03 22:49:01.822] loaded completely 33299.308097457884 11350.048889160156 True
+[2024-11-03 22:49:40.159] 100%|██████████| 20/20 [00:38<00:00,  1.95s/it]100%|██████████| 20/20 [00:38<00:00,  1.92s/it]
+[2024-11-03 22:52:03.290] 100%|██████████| 10/10 [01:58<00:00, 12.27s/it]100%|██████████| 10/10 [01:58<00:00, 11.83s/it]
+[2024-11-03 22:52:13.537] Prompt executed in 193.72 seconds
+[2024-11-03 22:52:15.463] loaded completely 42618.53906211853 11350.048889160156 True
+[2024-11-03 22:52:53.886] 100%|██████████| 20/20 [00:38<00:00,  1.96s/it]100%|██████████| 20/20 [00:38<00:00,  1.92s/it]
+[2024-11-03 22:55:16.374] 100%|██████████| 10/10 [01:58<00:00, 12.28s/it]100%|██████████| 10/10 [01:58<00:00, 11.84s/it]
+[2024-11-03 22:55:26.193] Prompt executed in 191.79 seconds
+[2024-11-03 22:55:27.103] Requested to load FluxClipModel_
+[2024-11-03 22:55:27.104] Loading 1 new model
+[2024-11-03 22:55:28.266] loaded completely 0.0 9319.23095703125 True
+[2024-11-03 22:55:29.227] loaded completely 33299.308097457884 11350.048889160156 True
+[2024-11-03 22:56:07.590] 100%|██████████| 20/20 [00:38<00:00,  1.96s/it]100%|██████████| 20/20 [00:38<00:00,  1.92s/it]
+[2024-11-03 22:58:30.284] 100%|██████████| 10/10 [01:58<00:00, 12.30s/it]100%|██████████| 10/10 [01:58<00:00, 11.84s/it]
+[2024-11-03 22:58:40.766] Prompt executed in 193.68 seconds
+[2024-11-03 22:58:42.480] loaded completely 42618.53906211853 11350.048889160156 True
+[2024-11-03 22:59:20.901] 100%|██████████| 20/20 [00:38<00:00,  1.96s/it]100%|██████████| 20/20 [00:38<00:00,  1.92s/it]
+[2024-11-03 23:01:43.213] 100%|██████████| 10/10 [01:58<00:00, 12.28s/it]100%|██████████| 10/10 [01:58<00:00, 11.84s/it]
+[2024-11-03 23:01:52.766] Prompt executed in 191.10 seconds
+[2024-11-03 23:01:54.994] loaded completely 42618.53906211853 11350.048889160156 True
+[2024-11-03 23:02:33.430] 100%|██████████| 20/20 [00:38<00:00,  1.96s/it]100%|██████████| 20/20 [00:38<00:00,  1.92s/it]
+[2024-11-03 23:02:45.582] got prompt
+[2024-11-03 23:02:45.881] got prompt
+[2024-11-03 23:04:55.783] 100%|██████████| 10/10 [01:58<00:00, 12.27s/it]100%|██████████| 10/10 [01:58<00:00, 11.84s/it]
+[2024-11-03 23:05:05.344] Prompt executed in 191.17 seconds
+[2024-11-03 23:05:06.249] Requested to load FluxClipModel_
+[2024-11-03 23:05:06.250] Loading 1 new model
+[2024-11-03 23:05:07.211] loaded completely 0.0 9319.23095703125 True
+[2024-11-03 23:05:08.176] loaded completely 33299.308097457884 11350.048889160156 True
+[2024-11-03 23:05:46.532] 100%|██████████| 20/20 [00:38<00:00,  1.96s/it]100%|██████████| 20/20 [00:38<00:00,  1.92s/it]
+[2024-11-03 23:08:09.301] 100%|██████████| 10/10 [01:58<00:00, 12.27s/it]100%|██████████| 10/10 [01:58<00:00, 11.83s/it]
+[2024-11-03 23:08:19.854] Prompt executed in 193.63 seconds
+[2024-11-03 23:08:21.488] loaded completely 42618.53906211853 11350.048889160156 True
+[2024-11-03 23:08:59.907] 100%|██████████| 20/20 [00:38<00:00,  1.96s/it]100%|██████████| 20/20 [00:38<00:00,  1.92s/it]
+[2024-11-03 23:11:22.304] 100%|██████████| 10/10 [01:58<00:00, 12.33s/it]100%|██████████| 10/10 [01:58<00:00, 11.86s/it]
+[2024-11-03 23:11:31.829] Prompt executed in 191.11 seconds
+[2024-11-03 23:20:02.372] got prompt
+[2024-11-03 23:20:02.417] Requested to load FluxClipModel_
+[2024-11-03 23:20:02.417] Loading 1 new model
+[2024-11-03 23:20:03.452] loaded completely 0.0 9319.23095703125 True
+[2024-11-03 23:20:04.687] loaded completely 33299.308097457884 11350.048889160156 True
+[2024-11-03 23:20:42.308] 100%|██████████| 20/20 [00:37<00:00,  1.92s/it]100%|██████████| 20/20 [00:37<00:00,  1.88s/it]
+[2024-11-03 23:23:04.472] 100%|██████████| 10/10 [01:57<00:00, 12.26s/it]100%|██████████| 10/10 [01:57<00:00, 11.80s/it]
+[2024-11-03 23:23:14.777] Prompt executed in 192.38 seconds
+[2024-11-03 23:26:02.817] got prompt
+[2024-11-03 23:26:02.856] Requested to load Flux
+[2024-11-03 23:26:02.857] Loading 1 new model
+[2024-11-03 23:26:03.972] loaded completely 9.5367431640625e+25 11350.048889160156 True
+[2024-11-03 23:26:09.056] got prompt
+[2024-11-03 23:26:41.578] 100%|██████████| 20/20 [00:37<00:00,  1.92s/it]100%|██████████| 20/20 [00:37<00:00,  1.88s/it]
+[2024-11-03 23:29:02.819] 100%|██████████| 10/10 [01:57<00:00, 12.20s/it]100%|██████████| 10/10 [01:57<00:00, 11.73s/it]
+[2024-11-03 23:29:12.320] Prompt executed in 189.49 seconds
+[2024-11-03 23:29:14.114] loaded completely 42618.50091514587 11350.048889160156 True
+[2024-11-03 23:29:52.388] 100%|██████████| 20/20 [00:38<00:00,  1.95s/it]100%|██████████| 20/20 [00:38<00:00,  1.91s/it]
+[2024-11-03 23:32:03.906] got prompt
+[2024-11-03 23:32:13.899] 100%|██████████| 10/10 [01:57<00:00, 12.24s/it]100%|██████████| 10/10 [01:57<00:00, 11.79s/it]
+[2024-11-03 23:32:14.741] got prompt
+[2024-11-03 23:32:23.417] Prompt executed in 190.07 seconds
+[2024-11-03 23:32:25.066] loaded completely 42618.50091514587 11350.048889160156 True
+[2024-11-03 23:33:03.405] 100%|██████████| 20/20 [00:38<00:00,  1.95s/it]100%|██████████| 20/20 [00:38<00:00,  1.92s/it]
+[2024-11-03 23:35:24.979] 100%|██████████| 10/10 [01:57<00:00, 12.25s/it]100%|██████████| 10/10 [01:58<00:00, 11.80s/it]
+[2024-11-03 23:35:34.467] Prompt executed in 190.16 seconds
+[2024-11-03 23:35:35.344] Requested to load Flux
+[2024-11-03 23:35:35.344] Loading 1 new model
+[2024-11-03 23:35:36.095] loaded completely 9.5367431640625e+25 11350.048889160156 True
+[2024-11-03 23:36:14.437] 100%|██████████| 20/20 [00:38<00:00,  1.95s/it]100%|██████████| 20/20 [00:38<00:00,  1.92s/it]
+[2024-11-03 23:38:36.106] 100%|██████████| 10/10 [01:57<00:00, 12.25s/it]100%|██████████| 10/10 [01:57<00:00, 11.80s/it]
+[2024-11-03 23:38:45.620] Prompt executed in 190.29 seconds
+[2024-11-04 00:38:18.056] got prompt
+[2024-11-04 00:38:18.323] model weight dtype torch.float16, manual cast: None
+[2024-11-04 00:38:18.324] model_type EPS
+[2024-11-04 00:38:20.018] Using xformers attention in VAE
+[2024-11-04 00:38:20.019] Using xformers attention in VAE
+[2024-11-04 00:38:20.205] /workspace/ComfyUI/venv/lib/python3.11/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+[2024-11-04 00:38:20.964] Requested to load SDXLClipModel
+[2024-11-04 00:38:20.964] Loading 1 new model
+[2024-11-04 00:38:21.176] loaded completely 0.0 1560.802734375 True
+[2024-11-04 00:38:21.268] Requested to load SDXL
+[2024-11-04 00:38:21.268] Loading 1 new model
+[2024-11-04 00:38:21.875] loaded completely 0.0 4897.0483474731445 True
+[2024-11-04 00:38:22.664] 100%|██████████| 3/3 [00:00<00:00,  4.23it/s]100%|██████████| 3/3 [00:00<00:00,  3.87it/s]
+[2024-11-04 00:38:22.665] Requested to load AutoencoderKL
+[2024-11-04 00:38:22.666] Loading 1 new model
+[2024-11-04 00:38:22.692] loaded completely 0.0 159.55708122253418 True
+[2024-11-04 00:38:23.136] Prompt executed in 5.07 seconds
+[2024-11-04 00:38:29.895] got prompt
+[2024-11-04 00:38:29.899] Failed to validate prompt for output 9:
+[2024-11-04 00:38:29.899] * CheckpointLoaderSimple 4:
+[2024-11-04 00:38:29.900]   - Value not in list: ckpt_name: 'RealVisXL_V4.0.safetensors' not in ['RealVisXL.safetensors', 'sd_xl_base_1.0.safetensors', 'sd_xl_refiner_1.0.safetensors']
+[2024-11-04 00:38:29.900] Output will be ignored
+[2024-11-04 00:38:29.901] invalid prompt: {'type': 'prompt_outputs_failed_validation', 'message': 'Prompt outputs failed validation', 'details': '', 'extra_info': {}}
+[2024-11-04 00:38:55.841] got prompt
+[2024-11-04 00:38:57.938] model weight dtype torch.float16, manual cast: None
+[2024-11-04 00:38:57.939] model_type EPS
+[2024-11-04 00:39:08.507] Using xformers attention in VAE
+[2024-11-04 00:39:08.511] Using xformers attention in VAE
+[2024-11-04 00:39:09.632] Requested to load SDXLClipModel
+[2024-11-04 00:39:09.632] Loading 1 new model
+[2024-11-04 00:39:09.831] loaded completely 0.0 1560.802734375 True
+[2024-11-04 00:39:09.943] Requested to load SDXL
+[2024-11-04 00:39:09.943] Loading 1 new model
+[2024-11-04 00:39:10.564] loaded completely 0.0 4897.0483474731445 True
+[2024-11-04 00:39:11.454] 100%|██████████| 3/3 [00:00<00:00,  3.87it/s]100%|██████████| 3/3 [00:00<00:00,  3.43it/s]
+[2024-11-04 00:39:11.456] Requested to load AutoencoderKL
+[2024-11-04 00:39:11.456] Loading 1 new model
+[2024-11-04 00:39:11.484] loaded completely 0.0 159.55708122253418 True
+[2024-11-04 00:39:11.968] Prompt executed in 16.12 seconds
