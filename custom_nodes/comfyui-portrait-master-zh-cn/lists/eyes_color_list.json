@@ -1,0 +1,34 @@
+[
+    {
+        "name": "棕色",
+        "prompt": "Brown"
+    },
+    {
+        "name": "蓝色",
+        "prompt": "Blue"
+    },
+    {
+        "name": "绿色",
+        "prompt": "Green"
+    },
+    {
+        "name": "淡褐色",
+        "prompt": "Hazel"
+    },
+    {
+        "name": "灰色",
+        "prompt": "Gray"
+    },
+    {
+        "name": "琥珀色",
+        "prompt": "Amber"
+    },
+    {
+        "name": "红色",
+        "prompt": "Red"
+    },
+    {
+        "name": "紫色",
+        "prompt": "Violet"
+    }
+]

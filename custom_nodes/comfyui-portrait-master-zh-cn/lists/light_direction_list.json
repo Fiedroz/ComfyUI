@@ -1,0 +1,42 @@
+[
+    {
+        "name": "从上方",
+        "prompt": "from top"
+    },
+    {
+        "name": "从下方",
+        "prompt": "from bottom"
+    },
+    {
+        "name": "从右侧",
+        "prompt": "from right"
+    },
+    {
+        "name": "从左侧",
+        "prompt": "from left"
+    },
+    {
+        "name": "从前方",
+        "prompt": "from front"
+    },
+    {
+        "name": "从后方",
+        "prompt": "from rear"
+    },
+    {
+        "name": "从右上方",
+        "prompt": "from top-right"
+    },
+    {
+        "name": "从左上方",
+        "prompt": "from top-left"
+    },
+    {
+        "name": "从右下方",
+        "prompt": "from bottom-right"
+    },
+    {
+        "name": "从左下方",
+        "prompt": "from bottom-left"
+    }
+]

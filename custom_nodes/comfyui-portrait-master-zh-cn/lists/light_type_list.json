@@ -1,0 +1,130 @@
+[
+    {
+        "name": "自然阳光",
+        "prompt": "Natural sunlight"
+    },
+    {
+        "name": "柔和环境光",
+        "prompt": "Soft ambient light"
+    },
+    {
+        "name": "强烈阳光",
+        "prompt": "Harsh sunlight"
+    },
+    {
+        "name": "阴天",
+        "prompt": "Overcast sky"
+    },
+    {
+        "name": "日落余晖",
+        "prompt": "Sunset glow"
+    },
+    {
+        "name": "日出温暖",
+        "prompt": "Sunrise warmth"
+    },
+    {
+        "name": "黄昏色彩",
+        "prompt": "Twilight hues"
+    },
+    {
+        "name": "烛光",
+        "prompt": "Candlelight"
+    },
+    {
+        "name": "白炽灯光",
+        "prompt": "Incandescent lighting"
+    },
+    {
+        "name": "荧光灯光",
+        "prompt": "Fluorescent lighting"
+    },
+    {
+        "name": "月光",
+        "prompt": "Moonlight"
+    },
+    {
+        "name": "斑驳阳光",
+        "prompt": "Dappled sunlight"
+    },
+    {
+        "name": "逆光剪影",
+        "prompt": "Backlit silhouette"
+    },
+    {
+        "name": "聚光灯",
+        "prompt": "Spotlight"
+    },
+    {
+        "name": "边缘光",
+        "prompt": "Rim lighting"
+    },
+    {
+        "name": "火光",
+        "prompt": "Firelight"
+    },
+    {
+        "name": "城市街灯",
+        "prompt": "City streetlights"
+    },
+    {
+        "name": "摄影棚灯光",
+        "prompt": "Studio lighting"
+    },
+    {
+        "name": "灯笼光",
+        "prompt": "Lantern light"
+    },
+    {
+        "name": "钨丝灯光",
+        "prompt": "Tungsten lighting"
+    },
+    {
+        "name": "阴天漫射光",
+        "prompt": "Cloudy day diffused light"
+    },
+    {
+        "name": "天窗光",
+        "prompt": "Skylight"
+    },
+    {
+        "name": "黄金时刻光线",
+        "prompt": "Golden hour light"
+    },
+    {
+        "name": "蓝色时刻光线",
+        "prompt": "Blue hour light"
+    },
+    {
+        "name": "闪光摄影",
+        "prompt": "Flash photography"
+    },
+    {
+        "name": "舞台灯光",
+        "prompt": "Stage lighting"
+    },
+    {
+        "name": "霓虹灯",
+        "prompt": "Neon lights"
+    },
+    {
+        "name": "火炬光",
+        "prompt": "Torchlight"
+    },
+    {
+        "name": "柔光箱照明",
+        "prompt": "Softbox lighting"
+    },
+    {
+        "name": "边缘光",
+        "prompt": "Rim light"
+    },
+    {
+        "name": "闪电",
+        "prompt": "Lightning"
+    },
+    {
+        "name": "抽象光影",
+        "prompt": "Abstract light patterns"
+    }
+]

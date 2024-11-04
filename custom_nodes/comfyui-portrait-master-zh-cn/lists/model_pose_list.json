@@ -1,0 +1,74 @@
+[
+    {
+        "name": "力量姿势",
+        "prompt": "Power Pose"
+    },
+    {
+        "name": "行走姿势",
+        "prompt": "Walking Pose"
+    },
+    {
+        "name": "回眸姿势",
+        "prompt": "The Over-the-Shoulder Look"
+    },
+    {
+        "name": "S曲线姿势",
+        "prompt": "S-curve Pose"
+    },
+    {
+        "name": "坐姿",
+        "prompt": "Sitting Pose"
+    },
+    {
+        "name": "特写美容拍摄姿势",
+        "prompt": "Close-Up Beauty Shot Pose"
+    },
+    {
+        "name": "倚靠姿势",
+        "prompt": "Leaning Pose"
+    },
+    {
+        "name": "举手姿势",
+        "prompt": "Arms Up Pose"
+    },
+    {
+        "name": "休闲漫步姿势",
+        "prompt": "Casual Stroll Pose"
+    },
+    {
+        "name": "头部特写姿势",
+        "prompt": "Headshot Pose"
+    },
+    {
+        "name": "盘腿坐姿",
+        "prompt": "Sitting Cross-Legged Pose"
+    },
+    {
+        "name": "背部拱起姿势",
+        "prompt": "Back Arch Pose"
+    },
+    {
+        "name": "手放腰间姿势",
+        "prompt": "Hand-on-Hip Pose"
+    },
+    {
+        "name": "凝视远方姿势",
+        "prompt": "Gazing into the Distance Pose"
+    },
+    {
+        "name": "自然笑容姿势",
+        "prompt": "Candid Laugh Pose"
+    },
+    {
+        "name": "动态动作姿势",
+        "prompt": "Dynamic Action Pose"
+    },
+    {
+        "name": "对立平衡姿势",
+        "prompt": "Contrapposto Pose"
+    },
+    {
+        "name": "高级时尚姿势",
+        "prompt": "High Fashion Pose"
+    }
+]

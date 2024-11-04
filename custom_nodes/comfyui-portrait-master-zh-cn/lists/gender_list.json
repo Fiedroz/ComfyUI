@@ -1,0 +1,10 @@
+[
+    {
+        "name": "男性",
+        "prompt": "Man"
+    },
+    {
+        "name": "女性",
+        "prompt": "Woman"
+    }
+]

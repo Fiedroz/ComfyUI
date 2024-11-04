@@ -1,0 +1,158 @@
+[
+    {
+        "name": "不对称剪裁",
+        "prompt": "Asymmetrical cut"
+    },
+    {
+        "name": "直剪",
+        "prompt": "Blunt cut"
+    },
+    {
+        "name": "波波头",
+        "prompt": "Bob cut"
+    },
+    {
+        "name": "编织波波头",
+        "prompt": "Braided bob"
+    },
+    {
+        "name": "寸头",
+        "prompt": "Buzz cut"
+    },
+    {
+        "name": "碎发剪裁",
+        "prompt": "Choppy cut"
+    },
+    {
+        "name": "卷发波波头",
+        "prompt": "Curly bob"
+    },
+    {
+        "name": "幕帘刘海",
+        "prompt": "Curtain bangs"
+    },
+    {
+        "name": "飞机头",
+        "prompt": "Faux hawk"
+    },
+    {
+        "name": "羽毛剪裁",
+        "prompt": "Feathered cut"
+    },
+    {
+        "name": "法式波波头",
+        "prompt": "French bob"
+    },
+    {
+        "name": "层次剪裁",
+        "prompt": "Layered cut"
+    },
+    {
+        "name": "长波波头",
+        "prompt": "Long bob"
+    },
+    {
+        "name": "莫霍克发型",
+        "prompt": "Mohawk"
+    },
+    {
+        "name": "精灵短发",
+        "prompt": "Pixie cut"
+    },
+    {
+        "name": "散乱剪裁",
+        "prompt": "Shag cut"
+    },
+    {
+        "name": "侧扫刘海",
+        "prompt": "Side-swept bangs"
+    },
+    {
+        "name": "质感剪裁",
+        "prompt": "Textured cut"
+    },
+    {
+        "name": "底层剪裁",
+        "prompt": "Undercut"
+    },
+    {
+        "name": "波浪波波头",
+        "prompt": "Wavy bob"
+    },
+    {
+        "name": "飞机头+精灵短发",
+        "prompt": "Faux hawk short pixie"
+    },
+    {
+        "name": "短发剃边",
+        "prompt": "Brave short haircut with shaved sides"
+    },
+    {
+        "name": "剃边锥形发型",
+        "prompt": "Tapered haircut with shaved side"
+    },
+    {
+        "name": "层叠波波头",
+        "prompt": "Stacked bob"
+    },
+    {
+        "name": "柠檬辫",
+        "prompt": "Lemonade braids"
+    },
+    {
+        "name": "中分马尾",
+        "prompt": "Middle part ponytails"
+    },
+    {
+        "name": "编织辫",
+        "prompt": "Stitch braids"
+    },
+    {
+        "name": "深侧分",
+        "prompt": "Deep side part"
+    },
+    {
+        "name": "法式辫",
+        "prompt": "French braids"
+    },
+    {
+        "name": "盒子辫",
+        "prompt": "Box braids"
+    },
+    {
+        "name": "双荷兰辫",
+        "prompt": "Two dutch braids"
+    },
+    {
+        "name": "波浪剪裁帘式刘海",
+        "prompt": "Wavy cut with curtains bangs"
+    },
+    {
+        "name": "右侧剃光",
+        "prompt": "Right side shaved"
+    },
+    {
+        "name": "扫式精灵",
+        "prompt": "Sweeping pixie"
+    },
+    {
+        "name": "光滑长波波头",
+        "prompt": "Smooth lob"
+    },
+    {
+        "name": "长精灵",
+        "prompt": "Long pixie"
+    },
+    {
+        "name": "侧扫精灵",
+        "prompt": "Sideswept pixie"
+    },
+    {
+        "name": "意式波波头",
+        "prompt": "Italian bob"
+    },
+    {
+        "name": "短长组合",
+        "prompt": "Shullet"
+    }
+]

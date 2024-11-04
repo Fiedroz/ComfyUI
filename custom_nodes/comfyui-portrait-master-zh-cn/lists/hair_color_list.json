@@ -1,0 +1,38 @@
+[
+    {
+        "name": "黑色",
+        "prompt": "Black"
+    },
+    {
+        "name": "棕色",
+        "prompt": "Brown"
+    },
+    {
+        "name": "金色",
+        "prompt": "Blonde"
+    },
+    {
+        "name": "红色",
+        "prompt": "Red"
+    },
+    {
+        "name": "赤褐色",
+        "prompt": "Auburn"
+    },
+    {
+        "name": "栗色",
+        "prompt": "Chestnut"
+    },
+    {
+        "name": "灰色",
+        "prompt": "Gray"
+    },
+    {
+        "name": "白色",
+        "prompt": "White"
+    },
+    {
+        "name": "灰白混合色",
+        "prompt": "Salt and pepper"
+    }
+]

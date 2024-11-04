@@ -1,0 +1,98 @@
+[
+    {
+        "name": "开心",
+        "prompt": "Happy"
+    },
+    {
+        "name": "伤心",
+        "prompt": "Sad"
+    },
+    {
+        "name": "生气",
+        "prompt": "Angry"
+    },
+    {
+        "name": "惊讶",
+        "prompt": "Surprised"
+    },
+    {
+        "name": "害怕",
+        "prompt": "Fearful"
+    },
+    {
+        "name": "厌恶",
+        "prompt": "Disgusted"
+    },
+    {
+        "name": "轻蔑",
+        "prompt": "Contemptuous"
+    },
+    {
+        "name": "兴奋",
+        "prompt": "Excited"
+    },
+    {
+        "name": "紧张",
+        "prompt": "Nervous"
+    },
+    {
+        "name": "困惑",
+        "prompt": "Confused"
+    },
+    {
+        "name": "愉快",
+        "prompt": "Amused"
+    },
+    {
+        "name": "满足",
+        "prompt": "Content"
+    },
+    {
+        "name": "失望",
+        "prompt": "Disappointed"
+    },
+    {
+        "name": "无聊",
+        "prompt": "Bored"
+    },
+    {
+        "name": "放松",
+        "prompt": "Relieved"
+    },
+    {
+        "name": "恋爱中",
+        "prompt": "In love"
+    },
+    {
+        "name": "害羞",
+        "prompt": "Shy"
+    },
+    {
+        "name": "嫉妒",
+        "prompt": "Envious"
+    },
+    {
+        "name": "骄傲",
+        "prompt": "Proud"
+    },
+    {
+        "name": "谨慎",
+        "prompt": "Cautious"
+    },
+    {
+        "name": "严肃",
+        "prompt": "Serious"
+    },
+    {
+        "name": "平静",
+        "prompt": "Serene"
+    },
+    {
+        "name": "和平",
+        "prompt": "Peaceful"
+    },
+    {
+        "name": "冷静",
+        "prompt": "Calm"
+    }
+]

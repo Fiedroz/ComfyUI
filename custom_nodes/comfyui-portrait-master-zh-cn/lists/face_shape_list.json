@@ -1,0 +1,50 @@
+[
+    {
+        "name": "椭圆形",
+        "prompt": "Oval"
+    },
+    {
+        "name": "圆形",
+        "prompt": "Round"
+    },
+    {
+        "name": "方形",
+        "prompt": "Square"
+    },
+    {
+        "name": "心形",
+        "prompt": "Heart-shaped"
+    },
+    {
+        "name": "长形",
+        "prompt": "Long"
+    },
+    {
+        "name": "长方形",
+        "prompt": "Rectangle"
+    },
+    {
+        "name": "三角形",
+        "prompt": "Triangle"
+    },
+    {
+        "name": "倒三角形",
+        "prompt": "Inverted Triangle"
+    },
+    {
+        "name": "梨形",
+        "prompt": "Pear-shaped"
+    },
+    {
+        "name": "长椭圆形",
+        "prompt": "Oblong"
+    },
+    {
+        "name": "方圆形",
+        "prompt": "Square Round"
+    },
+    {
+        "name": "方椭圆形",
+        "prompt": "Square Oval"
+    }
+]
