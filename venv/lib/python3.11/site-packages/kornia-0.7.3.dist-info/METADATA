@@ -1,0 +1,166 @@
+Metadata-Version: 2.1
+Name: kornia
+Version: 0.7.3
+Summary: Open Source Differentiable Computer Vision Library for PyTorch
+Author-email: Edgar Riba <edgar@kornia.org>
+License: Apache-2.0
+Project-URL: Bug Tracker, https://github.com/kornia/kornia/issues
+Project-URL: Documentation, https://kornia.readthedocs.io/en/latest
+Project-URL: Download, https://github.com/kornia/kornia
+Project-URL: Homepage, https://www.kornia.org
+Project-URL: Source Code, https://github.com/kornia/kornia
+Keywords: computer vision,deep learning,pytorch
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: GPU
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: kornia-rs >=0.1.0
+Requires-Dist: packaging
+Requires-Dist: torch >=1.9.1
+Provides-Extra: dev
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: numpy <2 ; extra == 'dev'
+Requires-Dist: onnx ; extra == 'dev'
+Requires-Dist: pre-commit >=2 ; extra == 'dev'
+Requires-Dist: pytest ==8.2.2 ; extra == 'dev'
+Requires-Dist: pytest-timeout ; extra == 'dev'
+Requires-Dist: requests ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: furo ; extra == 'docs'
+Requires-Dist: kornia-moons ; extra == 'docs'
+Requires-Dist: matplotlib ; extra == 'docs'
+Requires-Dist: opencv-python ; extra == 'docs'
+Requires-Dist: PyYAML >=5.1 ; extra == 'docs'
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-autodoc-defaultargs ; extra == 'docs'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'docs'
+Requires-Dist: sphinx-copybutton >=0.3 ; extra == 'docs'
+Requires-Dist: sphinx-design ; extra == 'docs'
+Requires-Dist: sphinx-notfound-page ; extra == 'docs'
+Requires-Dist: sphinxcontrib-bibtex ; extra == 'docs'
+Requires-Dist: sphinxcontrib-gtagjs ; extra == 'docs'
+Requires-Dist: sphinxcontrib-youtube ; extra == 'docs'
+Provides-Extra: x
+Requires-Dist: accelerate ; extra == 'x'
+Requires-Dist: onnxruntime-gpu >=1.16 ; (sys_platform != "darwin") and extra == 'x'
+
+<div align="center">
+<p align="center">
+  <img width="55%" src="https://github.com/kornia/data/raw/main/kornia_banner_pixie.png" />
+</p>
+
+---
+
+English | [简体中文](README_zh-CN.md)
+
+<!-- prettier-ignore -->
+<a href="https://kornia.readthedocs.io">Docs</a> •
+<a href="https://colab.sandbox.google.com/github/kornia/tutorials/blob/master/nbs/hello_world_tutorial.ipynb">Try it Now</a> •
+<a href="https://kornia.github.io/tutorials/">Tutorials</a> •
+<a href="https://github.com/kornia/kornia-examples">Examples</a> •
+<a href="https://kornia.github.io//kornia-blog">Blog</a> •
+<a href="https://join.slack.com/t/kornia/shared_invite/zt-csobk21g-CnydWe5fmvkcktIeRFGCEQ">Community</a>
+
+[![PyPI version](https://badge.fury.io/py/kornia.svg)](https://pypi.org/project/kornia)
+[![Downloads](https://static.pepy.tech/badge/kornia)](https://pepy.tech/project/kornia)
+[![Slack](https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white)](https://join.slack.com/t/kornia/shared_invite/zt-csobk21g-2AQRi~X9Uu6PLMuUZdvfjA)
+[![Twitter](https://img.shields.io/twitter/follow/kornia_foss?style=social)](https://twitter.com/kornia_foss)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENCE)
+
+</p>
+</div>
+
+**Kornia** is a differentiable computer vision library for [PyTorch](https://pytorch.org).
+
+It consists of a set of routines and differentiable modules to solve generic computer vision problems. At its core, the package uses *PyTorch* as its main backend both for efficiency and to take advantage of the reverse-mode auto-differentiation to define and compute the gradient of complex functions.
+
+Inspired by existing packages, this library is composed by a subset of packages containing operators that can be inserted within neural networks to train models to perform image transformations, epipolar geometry, depth estimation, and low-level image processing such as filtering and edge detection that operate directly on tensors.
+
+## Sponsorship
+
+Kornia is an open-source project that is developed and maintained by volunteers. Whether you're using it for research or commercial purposes, consider sponsoring or collaborating with us. Your support will help ensure Kornia's growth and ongoing innovation. Reach out to us today and be a part of shaping the future of this exciting initiative!
+
+<a href="https://opencollective.com/kornia/donate" target="_blank">
+  <img src="https://opencollective.com/webpack/donate/button@2x.png?color=blue" width=300 />
+</a>
+
+## Installation
+
+[![PyPI python](https://img.shields.io/pypi/pyversions/kornia)](https://pypi.org/project/kornia)
+[![pytorch](https://img.shields.io/badge/PyTorch_1.9.1+-ee4c2c?logo=pytorch&logoColor=white)](https://pytorch.org/get-started/locally/)
+
+### From pip
+
+  ```bash
+  pip install kornia
+  ```
+
+<details>
+  <summary>Other installation options</summary>
+
+#### From source with editable mode
+
+  ```bash
+  pip install -e .
+  ```
+
+#### From Github url (latest version)
+
+  ```bash
+  pip install git+https://github.com/kornia/kornia
+  ```
+
+</details>
+
+## Cite
+
+If you are using kornia in your research-related documents, it is recommended that you cite the paper. See more in [CITATION](./CITATION.md).
+
+  ```bibtex
+  @inproceedings{eriba2019kornia,
+    author    = {E. Riba, D. Mishkin, D. Ponsa, E. Rublee and G. Bradski},
+    title     = {Kornia: an Open Source Differentiable Computer Vision Library for PyTorch},
+    booktitle = {Winter Conference on Applications of Computer Vision},
+    year      = {2020},
+    url       = {https://arxiv.org/pdf/1910.02190.pdf}
+  }
+  ```
+
+## Contributing
+
+We appreciate all contributions. If you are planning to contribute back bug-fixes, please do so without any further discussion. If you plan to contribute new features, utility functions or extensions, please first open an issue and discuss the feature with us. Please, consider reading the [CONTRIBUTING](./CONTRIBUTING.md) notes. The participation in this open source project is subject to [Code of Conduct](./CODE_OF_CONDUCT.md).
+
+## Community
+
+- **Forums:** discuss implementations, research, etc. [GitHub Forums](https://github.com/kornia/kornia/discussions)
+- **GitHub Issues:** bug reports, feature requests, install issues, RFCs, thoughts, etc. [OPEN](https://github.com/kornia/kornia/issues/new/choose)
+- **Slack:** Join our workspace to keep in touch with our core contributors and be part of our community. [JOIN HERE](https://join.slack.com/t/kornia/shared_invite/zt-csobk21g-2AQRi~X9Uu6PLMuUZdvfjA)
+
+<a href="https://github.com/Kornia/kornia/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Kornia/kornia" width="60%" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
+
+## License
+
+Kornia is released under the Apache 2.0 license. See the [LICENSE](./LICENSE) file for more information.
